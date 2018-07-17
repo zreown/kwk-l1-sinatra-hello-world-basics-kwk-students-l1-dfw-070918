@@ -1,6 +1,7 @@
 class App < Sinatra::Base
 
-  get '/ Hello, World!' do 
+  get '/route' do 
+    "Hello, World!"
     
   end 
 
